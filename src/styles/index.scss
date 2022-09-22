@@ -38,4 +38,13 @@ html {
     font-family: 'Oswald', sans-serif;
     font-size: 5em;
   }
+  .map {
+    background-color: $red;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 }
+
