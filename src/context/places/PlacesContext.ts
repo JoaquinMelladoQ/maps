@@ -1,8 +1,10 @@
-import {createContext} from "react";
+import { createContext } from 'react';
 
 export interface PlacesContextProps {
 	isLoading: boolean;
 	userLocation?: [number, number];
 }
 
-export const PlacesContext = createContext<PlacesContextProps>({} as PlacesContextProps)
+export const PlacesContext = createContext<PlacesContextProps>(
+	{} as PlacesContextProps
+);

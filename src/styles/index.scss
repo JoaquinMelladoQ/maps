@@ -1,0 +1,41 @@
+//@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800|Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,900&display=swap');
+
+/* Oswald medium */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+$nav: 64px;
+$blue: #03a9f4;
+$green: #4caf50;
+$red: #ff2f20;
+
+* {
+  outline-width: 0 !important;
+  //font-family: 'Roboto';
+  //font-family: 'Lato', sans-serif;
+  //font-family: 'Oswald', sans-serif;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: $blue;
+}
+
+:root {
+  --bg1: #e5e5e5;
+  --bg2: #eee;
+  --bg3: #fff;
+
+  --color: #000;
+}
+
+#global {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+  }
+}
